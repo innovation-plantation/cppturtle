@@ -3,6 +3,7 @@
 Simple Turtle Graphics
 
 ![image](https://user-images.githubusercontent.com/26174810/66803169-8b4e4100-eeba-11e9-8614-f9ba035322bb.png)
+
 Write code like this 
 ```
 #include "Turtle.h"
@@ -17,7 +18,7 @@ int main() {
     bk(25);     // 25 pixel move backwards
     fd(50);     // 50 pixel move forward
     sleep_for(1s);
-    ht();               // hide turtle. (Other commands: st = show turtle, pu = pen up, pd = pen down)
+    ht();       // hide turtle. (Other commands: st = show turtle, pu = pen up, pd = pen down)
     sleep_for(3s);
     return 0;
 }
