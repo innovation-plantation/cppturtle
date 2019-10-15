@@ -1,5 +1,27 @@
 # cppturtle
+
 Simple Turtle Graphics
+
+![image](https://user-images.githubusercontent.com/26174810/66803169-8b4e4100-eeba-11e9-8614-f9ba035322bb.png)
+Write code like this 
+```
+#include "Turtle.h"
+/**
+ * Sample turtle graphics program
+ */
+using namespace turtle;
+int main() {
+    lt(90);     // 90 degree left turn
+    fd(50);     // 50 pixel move forward
+    rt(90);     // 90 degree right turn
+    bk(25);     // 25 pixel move backwards
+    fd(50);     // 50 pixel move forward
+    sleep_for(1s);
+    ht();               // hide turtle. (Other commands: st = show turtle, pu = pen up, pd = pen down)
+    sleep_for(3s);
+    return 0;
+}
+```
 
 Requires C++17 threads, and GTK--. Project is set up for CLion, but can be built from the command line
 ```
