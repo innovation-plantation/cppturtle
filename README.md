@@ -25,7 +25,7 @@ int main() {
 ```
 
 ## How to build the software
-* After C++17 threads, and GTK-- setting up for your system (see applicable section below for Windows or Debian), 
+* After setting up C++17 threads, and GTK-- for your system (see applicable section below for Windows or Debian), 
 * either run command line
 ```
 g++ main.cpp -pthread -std=c++17 -o turtle `pkg-config gtkmm-3.0 --cflags --libs`
