@@ -30,7 +30,7 @@ int main() {
 ```
 g++ main.cpp -pthread -std=c++17 -o turtle `pkg-config gtkmm-3.0 --cflags --libs`
 ```
-* or you can compile using CLion if you have it installed. 
+* or compile using CLion if you have it installed. 
 
 Instructions to set up for Windows and Debian based Linux (MX Linux, Ubuntu Linux, Linux Mint, etc.) are provided below.
 ## Setting up Windows 
